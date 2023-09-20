@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 from .models import *
 
 
-class HomeTemplateView(TemplateView):
+class indexTemplateView(TemplateView):
     template_name = 'home.html'
 
     # override get context date method
